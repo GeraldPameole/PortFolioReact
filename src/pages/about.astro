@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+
+---
+
+<BaseLayout title="A propos | Gérald Paméole" description="A propos de Gérald Paméole">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="Me découvrir"
+				tagline="Découvrez mon parcours et mes compétences."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/projectmanagersuitorangeface.jpg"
+					alt=""
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+
+				<div class="content">
+					<!--à corriger pour discours plus fluide -->
+					<p>Je débute ma carrière en 2005 en tant que Chargé de Développement Commercial chez SFR, où je travaille pendant plus de quatre ans, développant des compétences cruciales en croissance commerciale, gestion de la valeur client, conversion de leads, satisfaction client, collecte de données et veille commerciale. </p>
+					<p>En 2009, j'évolue vers un poste de Chargé de Formation, où je développe des compétences en formation, gestion de la qualité, et coaching des collaborateurs. </p>
+					<p>En 2012, en tant que Chargé de Qualité, je contribue au développement de 2 CRM internes propres au Service Client en participanr aux phases de brainstorming afin de définir les contours de futurs projets, effectue des enquêtes auprès des conseillers des différents pôles pour sonder les utilisateurs futurs et participe aux phases de recettes et de tests d'outils. Cette expérience réveille en moi une curiosité endormie depuis longtemps.</p>
+					<p>En 2015, en tant que Superviseur du Développement Commercial, j'acquière des compétences en gestion d'équipe, gestion du changement et mets à nouveau en pratique mes compétences commerciales au serive de mes équipes. Puisque rien ne s'apprend seul, je décide d'améliorer certaines de mes compétences en me référant aux ouvrages de quelques hommes reconnus et je lis et écoute Brian Tracy, Josh KAUFMAN, Timothy FERRISS, Seth GODIN , Eric RIES et comprends qu'il me faut trouver mon IKIGAI, mon feu sacré, quelque chose qui anime en moi l'envie de me dépasser et de me lever chaque matin avec l'envie d'aller conquérir le monde.</p>
+					<p>En parallèle, je commence à m'intéresser de plus près au e-business et à l'essor des plateformes de commerce électronique. Je sens arriver l'émergence de smartphones plus puissants et l'explosion des connectivités et des datas. Un tsunami se prépare et je sais que la dématérialisation des moyens de paiement va éclore et que les clients potentiels pourront acheter à partir de leurs téléphones, à tout moment, n'importe où. </p> 
+					<p> 2018, changement de cap et je décide de me consacrer aux métiers du web et précisément aux développement et à la gestion de projets web afin d'étendre mes compétences et mes connaissances. Devant toutes ces notions et cette pléthore de langages, je décide de me spécialiser en 2019 dans le dévéloppement front end (Javascript puis Wordpress et React) et réalise une formation de chef de projet web qui me permet de découvrir toutes les facettes d'un projet web, de l'avant projet à la livraison.</p>
+					<p> Je poursuis cette expérience en collaborant pendant près de 9 mois au sein du groupe Activ'partners en tant que Lead Développeur Web Front-End. Je me plonge alors en immersion dans les projets et mets en exergue les compétences en gestion de projets web, analyse des besoins clients et élaboration de cahiers des charges techniques. Ces expériences enrichissent mon profil professionnel avec une variété de compétences essentielles.</p>
+					<p></p>
+
+
+
+						<!--D'une formation initiale en commerce, j'ai débuté ma carrière en 2005 en tant que Chargé de Développement Commercial au sein de SFR où j'ai travaillé pendant quatre ans et cinq mois.<p/>
+						<p> Cette expérience m'a permis d'acquérir des compétences cruciales en développement commercial, notamment la gestion de la valeur client, la conversion de leads, la gestion de la satisfaction client, et la collecte de données pour optimiser la relation client. J'ai également contribué à l'amélioration des processus de vente et à la détection des besoins des clients. Durant cette période, j'ai été impliqué dans la veille commerciale et l'analyse des offres concurrentielles du marché<p/>
+						<!-- Un espace vide entre les paragraphes -->
+						<!-- <p>En juin 2009, j'ai évolué vers un poste de Chargé de Formation auprès du Service Client durant trois ans toujours au sein du meme groupe. Cette transition m'a permis de développer des compétences en formation, en amélioration des processus, en gestion de la qualité, et en coaching des collaborateurs. J'ai notamment créé des ateliers de communication et des challenges afin de sensibiliser les équipes aux objectifs du groupe. J'ai également travaillé sur l'analyse des outils de workflow, la définition d'objectifs individuels, et la formation des équipes de niveau 1 en outsourcing.</p>
+						<!-- Un espace vide entre les paragraphes -->
+						<!-- <p>En 2012, j'ai évolué en tant que Chargé de Qualité où j'ai passé trois ans à collaborer au développement, au déploiement et à l'enrichissement de deux CRM internes. J'ai contribué aux phases de brainstorming pour définir les contours de futurs projets, effectué des enquêtes auprès des conseillers des différents pôles pour sonder les utilisateurs futurs, et participé aux phases de tests d'outils. Cette expérience m'a permis d'acquérir des compétences en création de rapports, en amélioration des processus, et en gestion de la qualité. Ce premier pas a aiguisé mon désir de comprendre plus profondément les métiers du Numérique.</p>
+						<!-- Un espace vide entre les paragraphes -->
+						<!-- <p>En juin 2015, j'ai pris le poste de Superviseur du Développement Commercial chez SFR, où j'ai travaillé pendant plus de 3 ans. J'y ai encadré une équipe commerciale de 12 collaborateurs, animé les équipes pour la réalisation de campagnes, formé les collaborateurs, et apporté mon expertise lors  des négociations de contrats importants. Cette transition m'a permis de développer des compétences en gestion d'équipe, gestion du changement, et compétences commerciales.</p>
+						<!-- Un espace vide entre les paragraphes -->
+						<!--  J'ai un peu balisé mon chemin et je pense savoir quelle route emprunter pour arriver au moins au 1er rond point.
+						Retour sur le chemin de l'école et réouverture des cahiers, bien décidé à comprendre les raisons d'exister de tous ces langages et réapprendre à apprendre dans ce vaste monde nouveau. UX, UI, SQL, Queries, inputs, mock up.. Les cours se suivent, les notions pullulent, les langages s'enchainent et s'oublient à la vitesse d'un scrapping diligenté par des Russes.. Moi qui pensais apprendre Javascript, React, Redux, Next et autres technos dignes de me projeter dans un futur S'ensuit un apprentissage de comprendre et appliquer <p>Mon premier poste en tant que Développeur Web Front-End chez Activ'partners, lors de mon stage de juin 2020 à février 2021, a été l'occasion d'acquérir une solide expérience en gestion et management de projets web. J'ai développé des compétences essentielles, notamment le recueil et l'analyse des besoins du client, l'élaboration de cahiers des charges techniques, et la gestion de projets de refonte de sites web. Cette transition m'a permis de mettre en application mes compétences en gestion de projets web dans le développement front-end.</p>
+						<!-- Un espace vide entre les paragraphes -->
+						<!-- Au cours de ces expériences diverses, j'ai développé une palette de compétences allant de la gestion de projets web au développement front-end, de la gestion commerciale à la qualité et la formation. Mon engagement envers l'apprentissage continu et le développement de compétences diversifiées constitue une ressource précieuse dans ma carrière . -->
+					
+					
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Diplômes et certifications</h2>
+				<div class="content">
+					<p>Diplôme Universitaire Technologique de Techniques de Commercialisation - 2001</p>
+					<p>Certification Professionnelle Développeur Intégrateur Web - 2021</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p> Communication, Analyse, gestion du temps, organisation, éthique de travail </p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+	
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+		text-align: center;
+	}
+
+	.content {
+		grid-column: 2 / 3;
+	
+		text-align: justify;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>

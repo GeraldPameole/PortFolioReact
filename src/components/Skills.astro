@@ -1,0 +1,66 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Stategy-Minded </h2>
+		<p>Fort d'une vision stratégique claire et d'une capacité à aligner les objectifs commerciaux avec des stratégies innovantes, j'ai contribué à la réussite de nombreuses entreprises en favorisant la croissance, la compétitivité et l'adaptabilité. Mon expertise en matière de stratégie d'entreprise a permis de tracer un chemin vers le succès, tout en garantissant une position de leader sur le marché et une valeur durable pour les parties prenantes.</p>
+		
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Team Player</h2>
+		<p>En tant que professionnel, ma véritable force réside dans mon rôle d'élément catalyseur au sein de l'équipe. Je m'épanouis en tant que "team player" en collaborant de manière fluide avec toutes les entités de l'entreprise, des départements techniques aux équipes de vente. Cette approche enrichissante permet à chaque partie de tirer le meilleur de l'autre, renforçant ainsi notre capacité collective à relever les défis avec succès..</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Full Stack</h2>
+		<p>Grâce à des méthodes efficaces et à la mise en place de procédures optimisées, j'ai réussi à réduire de manière significative les délais d'intervention dans le domaine de la maintenance des équipements de télécommunications. En tant que chef de projet, mon engagement envers l'excellence opérationnelle a permis d'accélérer les rétablisssements et déploiements, d'améliorer la qualité de service et de garantir la satisfaction des clients et des équipes, renforçant ainsi la réussite de chaque projet telecoms qui m'a été confié.</p>
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);S
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+		/*text-align:center;*/
+	}
+
+	.skills p {
+		color: var(--gray-400);
+		text-align: justify;
+
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
